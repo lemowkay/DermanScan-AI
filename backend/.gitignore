@@ -1,7 +1,24 @@
-.env
-uploads/
-*.db
-__pycache__/
+# Python virtual environments
 venv/
 .venv/
+venv311/
+backend/venv311/
+
+# Node dependencies and build output
 node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secret files
+.env
+.env.*
+!.env.example
+
+# Uploaded files and databases
+uploads/
+*.db
