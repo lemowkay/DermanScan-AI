@@ -1,0 +1,4 @@
+# OPTIONAL: needed to TRAIN a model (training/train.py) and to RUN a trained one.
+# Without it the app runs in clearly-labelled DEMO mode.
+# TensorFlow 2.16+ supports Python 3.9-3.12. CPU is fine (training on a laptop works, just slower).
+tensorflow>=2.16
